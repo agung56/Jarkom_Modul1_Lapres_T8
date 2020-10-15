@@ -14,6 +14,10 @@
 
 ![A.2.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.2.1.png)
 ![A.2.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.2.2.png)
+
+**Gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"**
+![gambar](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.png)
+
 #### 3.  Cari username dan password ketika login di "ppid.dpr.go.id"!
 **Jawab:**
 
