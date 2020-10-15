@@ -68,6 +68,8 @@
 #### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 **Jawab:**
 
+![B.11.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.1.png)
+![B.11.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.2.png)
 #### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 **Jawab:**
 
