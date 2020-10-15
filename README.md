@@ -51,9 +51,14 @@
 #### 9. Cari username dan password ketika login FTP pada localhost!
 **Jawab:**
 
+![A.9.1]()
+![A.9.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.9.2.png)
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
 **Jawab:**
 
+![A.10.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.1.png)
+![A.10.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.2.png)
+![A.10.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.3.png)
 ### B. Capture Filter
 #### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 **Jawab:**
@@ -61,11 +66,18 @@
 #### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 **Jawab:**
 
+![B.12.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.1.png)
+![B.12.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.2.png)
 #### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 **Jawab:**
 
 #### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Jawab:**
 
+![B.14.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.1.png)
+![B.14.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.2.png)
 #### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 **Jawab:**
+
+![B.15.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.1.png)
+![B.15.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.2.png)
