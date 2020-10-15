@@ -55,7 +55,7 @@
 #### 9. Cari username dan password ketika login FTP pada localhost!
 **Jawab:**
 
-![A.9.1]()
+![A.9.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.9.1.png)
 ![A.9.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.9.2.png)
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
 **Jawab:**
