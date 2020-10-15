@@ -63,6 +63,7 @@
 ![A.10.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.1.png)
 ![A.10.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.2.png)
 ![A.10.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.3.png)
+
 ### B. Capture Filter
 #### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 **Jawab:**
