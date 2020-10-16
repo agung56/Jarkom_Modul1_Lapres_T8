@@ -113,6 +113,7 @@
 ![A.10.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.3.png)
 
 - Kemudian ubah data kedalam bentuk ***raw*** lalu simpan file tersebut dengan ekstensi ***.pdf***
+![A.10.4](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.4.png)
 
 ## B. CAPTURE FILTER
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
@@ -131,7 +132,11 @@
 **Penyelesaian**
 - Untuk Display Filter menggunakan command `tcp.dstport == 443`
 
+![B.13.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.1.png)
+![B.13.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.2.png)
+
 - Untuk Capture Filter menggunakan command `dst port 443`
+![B.13.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.3.png)
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Penyelesaian**
