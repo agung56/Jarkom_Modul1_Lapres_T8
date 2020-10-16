@@ -28,7 +28,7 @@
 
 ### 3.  Cari username dan password ketika login di "ppid.dpr.go.id"!
 **Penyelesaian**
-- Menggunakan command `http.host == "ppid.dpr.go.id" && http.request.method =="POST"`
+- Menggunakan command `http.host == "ppid.dpr.go.id" && http.request.method == "POST"`
 ![A.3.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.3.1.png)
 
 - Kemudian cari username dan password pada bagian HTML Form URL encoded seperti gambar dibawah
