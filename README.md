@@ -4,16 +4,16 @@
 2. Agung Mulyono (05311840000035)
 
 
-## A. Display Filter
+## A. DISPLAY FILTER
 ### 1.  Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
-**Jawab:**
+**Penyelesaian**
 - Menggunakan command `http.host == "testing.mekanis.me"`.
 #### Jawaban : ***menggunakan server nginx/1.14.0 (Ubuntu)***
 
 ![A.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.1.png)
 
 ### 2.  Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
-**Jawab:**
+**Penyelesaian**
 - Menggunakan command `http.host == "ppid.dpr.go.id"`
 
 ![A.2.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.2.1.png)
@@ -27,12 +27,14 @@
 ![gambar](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.png)
 
 ### 3.  Cari username dan password ketika login di "ppid.dpr.go.id"!
-**Jawab:**
-
+**Penyelesaian**
+- Menggunakan command `http.host == "ppid.dpr.go.id" && http.request.method =="POST"`
 ![A.3.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.3.1.png)
+
+- Kemudian cari username dan password pada bagian HTML Form URL encoded seperti gambar dibawah
 ![A.3.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.3.2.png)
 ### 4.  Temukan paket dari web-web yang menggunakan basic authentication method!
-**Jawab :**
+**Penyelesaian**
 - Untuk mencari web yang menggunakan basic authentication menggunakan command `http.authbasic`
 - Dengan tampilan seperti dibawah ini, yang dapat dipastikan dengan melihat keterangan pada body wireshark : ***"Authorization: Basic xxx..."***
 
@@ -40,7 +42,7 @@
 ![A.4.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.4.2.png)
 ![A.4.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.4.3.png)
 ### 5.  Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
-**Jawab :**
+**Penyelesaian**
 - Untuk bisa login pada web ***aku.pengen.pw*** kita memerlukan ***username dan password***. Dengan menggunakan display filter menggunakan command `http.host == "aku.pengen.pw"`
 
 ![A.5.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.5.1.png)
@@ -54,7 +56,7 @@
 ![A.5.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.5.3.png)
 
 ### 6.  Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt(passwordnya adalah isi dari file txt tersebut).
-**Jawab:**
+**Penyelesaian**
 1. Mencari file zip dengan nama ***Answer.zip***
 - Disini saya menggunakan Hex Value dari file "zip" ***(1F 9D)*** untuk mencari file tersebut
 
@@ -77,7 +79,7 @@
 ![A.6.5](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.6.5.png)
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
-**Jawab:**
+**Penyelesaian**
 - Sebelum mencari file "Yes.pdf", saya melakukan convert dari TEXT to HEX VALUE sehingga menghasilkan HEX VALUE dari "Yes.pdf" adalah 59 65 73 2e 70 64 66
 
 ![A.7.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.7.1.png)
@@ -86,45 +88,45 @@
 - Export file pdf tersebut, kemudian buka file pdf dan akan menampilkan seperti gambar dibawah ini :
 
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
-**Jawab:**
+**Penyelesaian**
 - Mencari IP Addres dari Microsoft FTP Service dengan menggunakan "find" -> "Regular Expression", sehingga menemukan IP Addressnya yaitu : 198.246.117.106
 - Kemudian mencari FTP Request Command RETR dengan menggunakan command `ftp.request.command == "RETR"`
 - IP Destination yang menggunakan IP diatas (Microsoft FTP Service) adalah hasil yang paling atas yang menunjukkan ***melakukan dowload/RETR Readme***
 ![A.8.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.8.1.png)
 ![A.8.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.8.2.png)
 ### 9. Cari username dan password ketika login FTP pada localhost!
-**Jawab:**
+**Penyelesaian**
 
 ![A.9.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.9.1.png)
 ![A.9.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.9.2.png)
 ### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
-**Jawab:**
+**Penyelesaian**
 
 ![A.10.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.1.png)
 ![A.10.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.2.png)
 ![A.10.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.3.png)
 
-## B. Capture Filter
+## B. CAPTURE FILTER
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
-**Jawab:**
+**Penyelesaian**
 
 ![B.11.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.1.png)
 ![B.11.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.2.png)
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
-**Jawab:**
+**Penyelesaian**
 
 ![B.12.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.1.png)
 ![B.12.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.2.png)
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
-**Jawab:**
+**Penyelesaian**
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
-**Jawab:**
+**Penyelesaian**
 
 ![B.14.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.1.png)
 ![B.14.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.2.png)
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
-**Jawab:**
+**Penyelesaian**
 
 ![B.15.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.1.png)
 ![B.15.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.2.png)
