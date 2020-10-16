@@ -38,9 +38,9 @@
 - Untuk mencari web yang menggunakan basic authentication menggunakan command `http.authbasic`
 - Dengan tampilan seperti dibawah ini, yang dapat dipastikan dengan melihat keterangan pada body wireshark : ***"Authorization: Basic xxx..."***
 
-![A.4.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.4.1.png)
-![A.4.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.4.2.png)
-![A.4.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.4.3.png)
+![authbasic1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/authbasic1.png)
+![authbasic2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/authbasic.2.png)
+
 ### 5.  Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 **Penyelesaian**
 - Untuk bisa login pada web ***aku.pengen.pw*** kita memerlukan ***username dan password***. Dengan menggunakan display filter menggunakan command `http.host == "aku.pengen.pw"`
@@ -85,7 +85,12 @@
 ![A.7.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.7.1.png)
 
 - Setelah menemukan file tersebut, lakukan TCP Stream kemudian save as "RAW" dan save dengan extensi ".zip"
+
+![yespdf](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/yespdf.png)
+
 - Export file pdf tersebut, kemudian buka file pdf dan akan menampilkan seperti gambar dibawah ini :
+
+![isiyespdf](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/isiyespdf.png)
 
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 **Penyelesaian**
