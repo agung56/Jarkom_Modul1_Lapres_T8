@@ -136,7 +136,9 @@
 ![B.13.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.2.png)
 
 - Untuk Capture Filter menggunakan command `dst port 443`
+
 ![B.13.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.3.png)
+![B.13.4](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.4.png)
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Penyelesaian**
