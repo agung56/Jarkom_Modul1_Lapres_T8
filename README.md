@@ -92,6 +92,7 @@
 - Mencari IP Addres dari Microsoft FTP Service dengan menggunakan "find" -> "Regular Expression", sehingga menemukan IP Addressnya yaitu : 198.246.117.106
 - Kemudian mencari FTP Request Command RETR dengan menggunakan command `ftp.request.command == "RETR"`
 - IP Destination yang menggunakan IP diatas (Microsoft FTP Service) adalah hasil yang paling atas yang menunjukkan ***melakukan dowload/RETR Readme***
+
 ![A.8.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.8.1.png)
 ![A.8.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.8.2.png)
 ### 9. Cari username dan password ketika login FTP pada localhost!
@@ -104,6 +105,7 @@
 ### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
 **Penyelesaian**
 - Disini saya menggunakan hex value dari clue yaitu: ***25 50 44 46***
+
 ![A.10.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.10.1.png)
 
 - Kemudian ***klik kanan*** pada paket yang sudah ditemukan lalu pilih ***follow -> tcp stream***
@@ -116,26 +118,30 @@
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 **Penyelesaian**
 - Menggunakan command `port 21` pada bagian capture filter
+
 ![B.11.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.1.png)
 ![B.11.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.11.2.png)
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 **Penyelesaian**
 - Menggunakan command `src port 80` pada bagian capture filter
+
 ![B.12.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.1.png)
 ![B.12.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.2.png)
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 **Penyelesaian**
-- Untuk Display Filter menggunakan command `tcp port 443`
+- Untuk Display Filter menggunakan command `tcp.dstport == 443`
 
 - Untuk Capture Filter menggunakan command `dst port 443`
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Penyelesaian**
-- Menggunakan command `src net "IP laptop"`
+- Menggunakan command `src net IPyangdimiliki`
+
 ![B.14.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.1.png)
 ![B.14.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.14.2.png)
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 **Penyelesaian**
 - Menggunakan command `dst host monta.if.its.ac.id`
+
 ![B.15.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.1.png)
 ![B.15.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.15.2.png)
