@@ -127,16 +127,21 @@
 - Menggunakan command `src port 80` pada bagian capture filter
 
 ![B.12.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.1.png)
+
 ![B.12.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.12.2.png)
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 **Penyelesaian**
 - Untuk Display Filter menggunakan command `tcp.dstport == 443`
 
 ![B.13.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.1.png)
+
 ![B.13.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.2.png)
 
 - Untuk Capture Filter menggunakan command `dst port 443`
+
 ![B.13.3](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.3.png)
+
+![B.13.4](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/B.13.4.png)
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Penyelesaian**
