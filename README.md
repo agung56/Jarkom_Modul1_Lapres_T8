@@ -47,7 +47,7 @@
 
 ![A.5.1](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.5.1.png)
 
-- Kemudian mencari pada bagian body wireshark pada ***Hypertext Transfer Protocol -> dibawah Authorization dengan nama :CREDETIALS***
+- Kemudian mencari pada bagian body wireshark pada ***Hypertext Transfer Protocol -> dibawah Authorization dengan nama :CREDENTIALS***
 
 ![A.5.2](https://github.com/agung56/Jarkom_Modul1_Lapres_T8/blob/main/img/A.5.2.png)
 
